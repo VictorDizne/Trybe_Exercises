@@ -7,3 +7,7 @@ O que eu vou aprender na Trybe:
 - Git
 
 - React
+
+- HTML
+
+- CSS
