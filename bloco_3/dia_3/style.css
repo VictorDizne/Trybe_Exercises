@@ -1,38 +1,28 @@
 body{
-    background-color:white ;
+    font-family: sans-serif;
 }
 
-.super-mario{
-    width: 150px;
-    position: absolute;
-    z-index: 1;
+p, h1{
+    text-align: center;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+a{text-decoration: none;
+}
+ul:visited{
+    font-family: georgia;
+    background-color: crimson;
 }
 
-.goomba{
-    width: 150px;
-    position: absolute;
-    z-index: 2;
-    top: 300px;
+a:visited{
+    font-family:Georgia;
+    background-color: crimson;
+    color: crimson;
+    
 }
 
-.baloon{
-    width: 150px;
-    position: absolute;
-    z-index: 3;
-    left: 400px;
-}
-
-.bowser{
-    width: 250px;
-    position: absolute;
-    z-index: 4;
-    left: 545px;
-}
-
-.word{
-    width: 150px;
-    position: absolute;
-    z-index: 5;
-    left: 432px;
-    top: 85px;
+ul:hover{
+    background-color: cornflowerblue;
 }
