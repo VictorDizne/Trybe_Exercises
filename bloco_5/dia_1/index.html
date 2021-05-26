@@ -55,13 +55,18 @@
       document.getElementsByTagName("div")[1].style.backgroundColor = "white";
       document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript"
       document.getElementsByTagName("p")[0].innerText = "Estarei trablhando com programação"
-      function boldAndLog() {
+      function bold() {
         let bold = document.getElementsByTagName("p");
         for (i = 0; i < bold.length; i += 1) {
-          return bold[i].style.fontWeight = "900";
-          console.log[bold[i]];
+          bold[i].style.fontWeight = "900";
       }
     }
+    function log() {
+      let paragrafos = document.getElementsByTagName("p");
+      for (let i in paragrafos){
+      console.log (paragrafos[i].innerText);
+      }
+}
     </script>
   </body>
 </html>
