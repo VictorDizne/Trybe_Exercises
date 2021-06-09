@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Conte nos mais sobre você:</h1>
+    <form action="" method="GET">
+      <fieldset>
+        <legend>Dados Pessoais</legend><br>
+        <label for="username">Nome Completo:</label>
+        <input placeholder="Nome completo" id="username" type="text" maxlength="40" required><br><br>
+        <label for="email">Email:</label>
+        <input placeholder="Email" id="email" type="email" maxlength="50" required><br><br>
+        <label for="cpf">CPF:</label>
+        <input placeholder="CPF apenas números" id="cpf" type="text" maxlength="11" required><br><br>
+        <label for="endereco">Endereço:</label>
+        <input placeholder="Endereço" id="endereco" type="text" maxlength="200" required><br><br>
+        <label for="cidade">Cidade:</label>
+        <input placeholder="Cidade" id="cidade" type="text" maxlength="28" required><br><br>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+          <option value='' disabled selected>Selecione seu estado:</option>
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="ap">Amapá</option>
+        </select><br><br>
+        <label for="casa">Casa
+        <input type="radio" name="moradia" id="casa" value="casa" required>
+        </label>
+        <label for="apartamento">Apartamento
+          <input type="radio" name="moradia" id="apartamento" value="apartamento" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Seu último emprego</legend>
+        <label for="curriculum">Escreva aqui um resumo de seu currículo:</label>
+        <textarea required maxlength="1000" name="curriculum" id="curriculum" cols="100" rows="3"></textarea><br><br>
+        <label for="cargo">Qual era o seu cargo?</label>
+        <input required type="text" name="cargo" id="cargo" maxlength="40"><br><br>
+        <label for="job_description">Escreva uma descrição do cargo</label>
+        <input required type="text" name="job_description" id="job_description" maxlength="500"><br><br>
+        <label for="job_date">Data de início</label>
+        <input required type="date" min="1" name="job_date" id="job_date">
+      </fieldset>
+      <button type="submit">Submeter Curriculo</button>
+    </form>
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
