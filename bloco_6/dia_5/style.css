@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+body {
+  margin: 15px;
+}
+p {
+  font-size: medium;
+}
+h1 {
+  font-size: x-large;
+}
+h2 {
+  font-size: large;
+}
+figure {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 800px){
+  #div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  figure {
+    margin-bottom: 25px;
+    width: 45%;
+    margin: 5px;
+  }
+
+  p {
+    font-size: large;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+  h2 {
+    font-size: x-large;
+  }
+}
