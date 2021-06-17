@@ -1,0 +1,1 @@
+O exercicio do dia 2 foi fazer a estilizacao do exercicio do dia 1, por isso não tem nada aqui.
