@@ -36,14 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-button {
-  background-color: antiquewhite;
-  padding: 15%;
-  text-align: center;
-  margin: 10px;
-}
-
-button:hover {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.719) ;
-}
