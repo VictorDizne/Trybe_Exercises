@@ -1,0 +1,14 @@
+{
+  "name": "test_1",
+  "version": "1.0.0",
+  "description": "aprendendo testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^12.0.1"
+  }
+}
