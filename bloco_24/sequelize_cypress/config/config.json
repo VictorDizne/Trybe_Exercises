@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "disney",
+    "password": "minhoca2007",
+    "database": "associations",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "disney",
+    "password": "minhoca2007",
+    "database": "associations",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "disney",
+    "password": "minhoca2007",
+    "database": "associations",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
